@@ -11,7 +11,7 @@ import java.net.Socket;
  */
 public class Main {
     public static void main(String[] args) throws IOException {
-        ServerSocket ss = new ServerSocket(8081);
+        ServerSocket ss = new ServerSocket(8080);
         while (true){
             System.out.println("wait for tcp-connection...");
             Socket socket = ss.accept();
